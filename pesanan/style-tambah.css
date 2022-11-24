@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	
+}
+
+body{
+	
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(159,186,228,1) 0%, rgba(94,138,164,1) 0%, rgba(23,22,37,1) 0%, rgba(41,99,111,1) 100%);
+}
+
+.container {
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 700px;
+	width: 50%;
+	background: #fff;
+	padding:  30px 30px;
+	border-radius: 12px;
+}
+
+.judul {
+	color: #24252A;
+}
+.container .title {
+	font-size: 25px;
+	font-weight: 500;
+	color: #24252A;
+	position: relative;
+}
+
+.container .title: :before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 30px;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(159,186,228,1) 0%, rgba(94,138,164,1) 0%, rgba(23,22,37,1) 0%, rgba(41,99,111,1) 100%);
+}
+
+form .user-details .input-box  {
+	width: calc(100% 20px);
+	margin-bottom:  15px;
+}
+ 
+.user-details .input-box .details {
+ 	display: block;
+ 	font-weight: 500;
+ 	margin-bottom: 5px;
+ }
+
+.user-details .input-box input{
+	height: 45px;
+	width: 100%;
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	padding-left:  15px;
+	font-size:  16px;
+	border-bottom-width: 2px ;
+	transition: all 0.3s ease;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+	border-color: #9b59b6 ;
+}
+
+form .submitBtn {
+	height:  45px;
+	margin:  45px 0;
+}
+
+form .submitBtn input {
+	height:  100%;
+	width: 100%;
+	outline:  none;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	background: linear-gradient(-90deg, rgba(2,0,36,1) 0%, rgba(159,186,228,1) 0%, rgba(94,138,164,1) 0%, rgba(23,22,37,1) 0%, rgba(41,99,111,1) 100%);
+}
+
+form .submitBtn input:hover {
+	width: 100%;
+	outline: none;
+	border: 0px solid #ccc;
+	font-size:  20px;transition: all 0.5s ease;
+}
+
+.titlee {
+	font-family: "Poppins", sans-serif;
+	font-weight: 1000;
+	font-size: 25px;
+	color: #fafafa;
+	
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: right;
+	text-align: left;
+	padding: 30px 10%;
+}
+
+.nav__links {
+	list-style: none;
+}
+
+.nav__links li {
+	display: inline-block;
+	padding:  0px 20px;
+}
+
+.nav__links li, a {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #fafafa;
+	text-decoration: none;
+}
+
+.judul a{
+	color: #1c1487;
+	font-weight: 500;
+	margin-bottom: 20px;
+	text-align: right;
+
+}

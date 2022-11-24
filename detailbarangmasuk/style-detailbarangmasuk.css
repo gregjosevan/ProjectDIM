@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	font-family: 'Poppins', sans-serif;
+	align-items: center;
+
+}
+
+.filter {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	opacity: 1;
+
+	
+}
+
+body {
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(159,186,228,1) 0%, rgba(94,138,164,1) 0%, rgba(23,22,37,1) 0%, rgba(41,99,111,1) 100%);
+}
+
+.tabel {
+	position: absolute;
+	z-index: 2;
+	left: 50%;
+	top: 50%;
+	transform:  translate(-50%,-50%);
+	widht: 60%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 5px 12px rgba(32,32,32,.3);
+	background: #fafafa;
+	text-align: center;
+}
+
+.tabel h1 {
+	color:  #fff;
+	background: #0b2d42;
+	border-radius: 5px;
+	padding: 10px 15px;
+	
+	margin-bottom: 3px;
+}
+
+.addBtn {
+	margin-top: 10px;
+	text-align: center;
+	justify-content: center;
+	padding: 10px 0;
+	border-radius: 5px;
+	border-color:  #1d2947;
+	
+}
+
+th,td {
+	padding: 10px 15px;
+	border-top: 5px;
+
+}
+
+th{
+	background: #0b2d42;
+	color: #fafafa;
+
+	font-weight: 500;
+	border-radius: 5px;
+}
+
+tr:nth-child(odd) {
+	background-color: #eeeeee;
+}
+
+
+.titlee {
+	font-family: "Poppins", sans-serif;
+	font-weight: 1000;
+	font-size: 25px;
+	color: #fafafa;
+	
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: right;
+	text-align: left;
+	padding: 30px 10%;
+}
+
+.nav__links {
+	list-style: none;
+}
+
+.nav__links li {
+	display: inline-block;
+	padding:  0px 20px;
+}
+
+.nav__links li a {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #fafafa;
+	text-decoration: none;
+}
+
+/*.addBtn {
+	height:  45px;
+	margin:  45px 0;
+}
+
+.addBtn input {
+	height:  100%;
+	width: 100%;
+	outline:  none;
+	color: #fff;
+	border: 10px;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	background: linear-gradient(-90deg, rgba(2,0,36,1) 0%, rgba(159,186,228,1) 0%, rgba(94,138,164,1) 0%, rgba(23,22,37,1) 0%, rgba(41,99,111,1) 100%);
+}
+
+form .addBtn input:hover {
+	width: 100%;
+	outline: none;
+	border: 0px solid #ccc;
+	font-size:  20px;transition: all 0.5s ease;
+}*/
+
